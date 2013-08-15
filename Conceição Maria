@@ -1,0 +1,26 @@
+Introdução
+
+
+História do Subversion
+
+No início de 2000, CollabNet, Inc. ( http://www.collab.net ) começou a procurar os desenvolvedores a escrever um 
+substituto para o CVS. CollabNet oferece um conjunto de ferramentas de software de colaboração chamado SourceCast, da qual
+é um componente de controle de versão. Embora o sistema CVS SourceCast usado como controle de versão inicial, 
+as limitações do CVS ficaram evidentes desde o início, e CollabNet sabia que teria que encontrar algo melhor.
+Infelizmente, o CVS havia se tornado o padrão de facto no mundo open source, porque não havia nada melhor, pelo menos
+não sob uma licença livre. Então a CollabNet decidiu desenvolver um novo sistema de controle de versão a partir do zero,
+mantendo as idéias básicas do CVS, mas sem os bugs e falhas.
+
+Em fevereiro de 2000, entraram em contato com Karl Fogel, o autor do Open Source Development with CVS (Coriolis, 1999),
+e perguntou se ele gostaria de trabalhar neste novo projeto. Coincidentemente, no momento Karl já estava discutindo o
+projeto para um novo sistema de controle de versão com seu amigo Jim Blandy. Em 1995, os dois iniciaram a Cyclic 
+Software, uma empresa prestadora de contratos de suporte CVS, e embora mais tarde vendeu o negócio, eles ainda usavam 
+CVS todos os dias em seus trabalhos. Sua frustração com o CVS levou Jim a pensar cuidadosamente sobre melhores maneiras
+de gerenciar dados versionados, e não só já tinha o nome " Subversion " , mas também o projeto básico do repositório do
+Subversion. Quando CollabNet chamou, Karl concordou imediatamente a trabalhar no projeto, e Jim tem seu empregador, Red
+Hat Software, essencialmente a cedê-lo para o projeto por tempo indeterminado. CollabNet contratou Karl e 
+Ben Collins-Sussman, e um trabalho detalhado começou em maio. Com a ajuda de alguns bem colocado aguilhões de 
+Brian Behlendorf e Jason Robbins da CollabNet, e Greg Stein (na época um desenvolvedor independente ativo no processo 
+de especificação WebDAV / DeltaV), o Subversion rapidamente atraiu uma comunidade de desenvolvedores ativos. Este veio
+para demonstrar que havia muitas pessoas que tiveram as mesmas experiências frustrantes com CVS, e havia recebido a 
+oportunidade de fazer algo sobre isso.
