@@ -1,0 +1,21 @@
+Como Instalar
+
+
+Subversion é construído sobre uma camada chamada portabilidade abril (biblioteca Apache Portable Runtime), o que significa
+que o Subversion deve funcionar em qualquer sistema operacional que faz com que o servidor httpd Apache: Windows, Linux,
+todas as versões do BSD, Mac OS X , NetWare e outros.
+
+A maneira mais fácil de obter o Subversion é baixar um pacote binário construído para o seu sistema operacional. O site
+do Subversion ( http://subversion.tigris.org ) muitas vezes tem esses pacotes disponíveis para download, postado por 
+voluntários. O site geralmente contém pacotes de instaladores gráficos para usuários dos sistemas operacionais da 
+Microsoft. Se você usar um sistema operacional Unix-like, você pode usar a distribuição de pacotes nativo de seu sistema
+o sistema (RPMs, DEBs, a árvore de portos, etc.) Para obter o Subversion.
+
+Alternativamente, você pode compilar o Subversion diretamente a partir do código fonte. Web site Subversion, baixe a 
+última versão do código-fonte. Após descompactá-lo, siga as instruções do arquivo INSTALL para a compilação. Note que 
+cada pacote fonte que é publicado contém tudo que você precisa para construir um cliente de linha de comando capaz de se 
+comunicar com um repositório remoto (em particular, as bibliotecas abril, apr-util, e neon). No entanto, as partes
+opcionais do Subversion têm muitas outras dependências, como banco de dados Berkeley DB e possivelmente o servidor web 
+Apache. Se você quer fazer uma construção completa, certifique-se que você tem todos os pacotes documentadas no arquivo
+INSTALAR . Se você pretende trabalhar no próprio Subversion, você pode usar o seu programa cliente para obter a versão 
+mais recente e mais recente da fonte. Isso está documentado em "obter o código fonte" .
