@@ -1,0 +1,53 @@
+Características do Subversion
+
+Ao discutir as características que o Subversion traz para o controle de versão, muitas vezes é útil falar deles em 
+termos de como eles melhorar o projeto de CVS. Se você não estiver familiarizado com o CVS, você pode não entender
+todas essas características. E se você não estiver familiarizado com o controle de versão em tudo, você pode olhos 
+vidrados, Conceitos Básicos , no qual apresentamos uma suave introdução ao
+controle de versão em geral.
+
+Subversion fornece:
+
+Versionamento de diretórios
+CVS apenas rastreia o histórico de arquivos individuais, mas Subversion implementa um sistema de arquivos versionado
+" virtuais " que rastreia alterações árvores de diretório inteiras ao longo do tempo. Ambos os arquivos e diretórios 
+estão sob controle de versão.
+
+História da  verdadeira versão
+Como o CVS é ​​limitado a versões de arquivos, operações como cópia e renomeação-o que pode acontecer com os arquivos, 
+mas que são realmente alterações no conteúdo do diretório em que se encontram, não são suportadas no CVS. Além disso, 
+no CVS você não pode substituir um arquivo versionado com alguma coisa nova com o mesmo nome, sem o novo item de herdar
+a história do velho, talvez completamente alheios-file. Com o Subversion, você pode adicionar, excluir, copiar e renomear
+arquivos e diretórios. E cada novo arquivo adicionado começa com um fresco, limpo toda a sua história própria.
+
+Atomic compromete
+Um conjunto de modificações ou vai para o repositório, ou não feito. Isto permite aos desenvolvedores construir e
+submeter alterações como blocos lógicos, e evita os problemas que ocorrem quando apenas parte das mudanças que isso 
+enviadas com sucesso.
+
+Versionamento de metadados
+Cada arquivo e diretório tem um conjunto de propriedades-chaves e seus valores associados. Você pode criar e armazenar
+qualquer tecla arbitrária / valor que você deseja. As propriedades são versões ao longo do tempo, como o conteúdo dos 
+arquivos.
+
+Escolhendo a camada de rede
+Subversion tem uma noção abstrata de acesso ao repositório, tornando mais fácil para as pessoas implementarem novos 
+mecanismos de rede. Subversion pode ligar para o Apache HTTP Server como um módulo de extensão. Isto dá ao Subversion
+uma grande vantagem em estabilidade e interoperabilidade e acesso instantâneo aos recursos existentes oferecidos por 
+este servidor de autenticação, autorização, compressão de arame, e assim por diante. Também tem disponível um servidor 
+Subversion, e mais leve. Este servidor fala um protocolo personalizado, que pode ser facilmente encaminhado através de
+um túnel SSH.
+
+Manipulação de dados consistente
+Subversion exprime as diferenças de arquivo usando um algoritmo diferenciado, que funciona de forma idêntica em ambos
+texto (legível) e binário (incompreensível para humanos). Ambos os tipos de ficheiros estão armazenados no repositório 
+igualmente comprimida e as diferenças são transmitidos em ambas as direcções, através da rede.
+
+Eficiente ramificação e marcação
+O custo de ramificação e marcação não precisa ser proporcional ao tamanho do projeto. Subversion cria ramos e rótulos
+simplesmente copiando o projeto, usando um mecanismo semelhante ao hard link. Assim, estas operações têm apenas uma 
+muito pequena quantidade de tempo e constantes.
+
+Hackability
+Subversion não tem bagagem histórica, é implementado como um conjunto de bibliotecas compartilhadas C com APIs bem 
+definido. Isto torna o Subversion extremamente sustentável e utilizável por outras aplicações e linguagens.
