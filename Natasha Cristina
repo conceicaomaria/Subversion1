@@ -1,0 +1,30 @@
+Componentes do Subversion
+
+Uma vez instalado, o Subversion é composto por um número diferente de partes. Abaixo está uma visão geral desses 
+componentes. Não se assuste se as breves descrições deixar você coçar as coisas muito claras, há páginas de sobra 
+neste livro para acabar com essa confusão.
+
+svn
+O cliente de linha de comando do programa.
+
+svnversion
+Um programa para informar o estado (em termos de revisões dos itens presentes) de uma cópia de trabalho.
+
+svnlook
+Uma ferramenta para inspecionar um repositório Subversion.
+
+svnadmin
+Ferramenta para criação, ajuste e manutenção de um repositório Subversion.
+
+svndumpfilter
+Um programa para filtrar a saída do formato repositório Subversion de despejo.
+
+mod_dav_svn
+Um módulo para o servidor HTTP Apache usado para disponibilizar seu repositório a outros através da rede.
+
+svnserve
+Um programa servidor, executável como um processo daemon ou invocável pelo SSH, uma outra forma de disponibilizar seu 
+repositório a outros através da rede.
+
+Supondo que você tenha instalado o Subversion corretamente, você deve estar pronto para começar. Os próximos dois 
+capítulos guiá-lo através do uso de svn , Subversion linha de comando do programa cliente.
