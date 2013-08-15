@@ -1,0 +1,18 @@
+Continuação>>Introdução
+
+
+A equipe do projeto original determinou alguns objetivos simples. Eles não querem inovar na metodologia de controle
+de versão, eles apenas queriam corrigir o CVS. Eles decidiram que o Subversion deveria ser compatível com as 
+características do CVS e manter o mesmo modelo de desenvolvimento, mas não reproduzir as falhas mais óbvias do CVS. E,
+embora não precisa ser um substituto para o CVS, que deve ser semelhante o suficiente para que qualquer usuário CVS 
+poderia fazer a troca com pouco esforço.
+
+Após 14 meses de desenvolvimento, o Subversion tornou-se " auto-gerenciável " em 31 de agosto de 2001. Ou seja, os 
+desenvolvedores do Subversion pararam de usar o CVS para gerenciar o código fonte em si Subversion, e em vez disso 
+começou a utilizar o Subversion.
+
+Enquanto CollabNet iniciou o projeto, e ainda patrocine uma grande parte do trabalho (que paga os salários de alguns
+desenvolvedores em tempo integral do Subversion), o Subversion é executado como projetos de código aberto mais, liderada
+por um conjunto informal de regras claro que incentivar a meritocracia. A licença adotada pela CollabNet é totalmente 
+compatível com o Debian Free Software Guidelines. Em outras palavras, qualquer um é livre para baixar, modificar e 
+redistribuir o Subversion como lhe agrada; não requer nenhuma permissão de CollabNet ou qualquer outra pessoa.
